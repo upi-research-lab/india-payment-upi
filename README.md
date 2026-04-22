@@ -1,32 +1,58 @@
-# India Wallet API & Protocol Research
+# India Wallet API & UPI Protocol Research
 
 ## 项目简介
-本项目聚焦印度主流数字钱包与 UPI 生态的接口规范与交互机制研究，围绕移动端与服务端的通信模式、鉴权方式、交易流程与错误处理等进行系统化梳理，帮助开发者理解钱包侧的集成要点与工程实践。
+本项目专注于印度数字支付生态中 UPI（Unified Payments Interface）及主流移动钱包 API 的接口规范与通信机制研究，涵盖 **UPI protocol analysis** 与 **mobile wallet API** 设计实践。  
 
-> 说明：本项目基于公开资料与合规研究方法，面向技术学习与系统集成参考，不涉及对平台安全机制的绕过或滥用。
+围绕客户端（Android / iOS）与服务端之间的 API 交互模型、鉴权机制（Authentication）、交易流程（Transaction Flow）以及异常处理策略进行系统化分析，帮助开发者深入理解 **India payment ecosystem** 下的钱包集成逻辑与接口行为。
 
-## 覆盖范围
-- 主流钱包生态接口理解与对比分析：
-  - :contentReference[oaicite:1]{index=1}
-  - :contentReference[oaicite:2]{index=2}
-  - :contentReference[oaicite:3]{index=3}
-  - :contentReference[oaicite:4]{index=4}
-  - :contentReference[oaicite:5]{index=5}
-  - :contentReference[oaicite:6]{index=6}
-- UPI 相关接口调用模式与交易链路
-- 客户端/服务端请求结构（Headers / Payload / 状态码）
-- 鉴权与风控要点（如 Token、签名、设备标识等的通用机制）
-- 异常处理与重试策略（幂等、超时、回调一致性）
+本项目同时结合对 **Paytm / PhonePe API** 等主流钱包接口特征的归纳总结，为实际集成与技术调研提供参考框架。
 
-## 研究内容
-- **接口交互模型**：请求/响应结构、版本演进、兼容性策略  
-- **交易流程拆解**：下单 → 鉴权 → 扣款 → 回调 → 对账  
-- **安全与合规**：常见鉴权模式与合规接入注意事项  
-- **集成实践**：SDK/HTTP 接入方式、环境区分（Sandbox/Production）  
-- **对比分析**：不同钱包在接口设计与调用策略上的差异
+> 说明：本项目基于公开资料与合规研究方法，仅用于技术研究（Research）、系统集成（Integration）与架构设计参考（Architecture Reference）。
 
-## 应用场景
-- 跨境/本地化支付接入（India market entry）
-- 钱包聚合与统一接口封装
-- 风控与稳定性优化（重试、幂等、降级）
-- 技术调研与架构设计参考
+---
+
+## 覆盖范围（Coverage）
+- 主流印度移动钱包（Mobile Wallet）API 结构与交互模式：
+  - Mobikwik  
+  - FreeCharge  
+  - PhonePe  
+  - Airtel Payments Bank  
+  - Paytm  
+  - Amazon Pay India  
+- **UPI protocol analysis**：接口调用模式与交易链路拆解  
+- **Mobile wallet API** 请求结构（Headers / Payload / Token / Signature）  
+- 常见鉴权机制（Authentication / Authorization）  
+- 风控与安全策略（Risk Control in India payment ecosystem）  
+- 错误码体系与异常处理机制  
+
+---
+
+## 研究内容（Research Scope）
+- **API Interaction Model**  
+  钱包 API（含 Paytm / PhonePe API）请求/响应结构、版本控制与兼容性策略  
+
+- **Transaction Flow Analysis**  
+  标准支付流程：Create Order → Authentication → Payment → Callback → Reconciliation  
+
+- **Authentication & Security**  
+  Token、签名机制、设备标识等在 mobile wallet API 中的应用  
+
+- **Integration Practice**  
+  面向 India payment ecosystem 的钱包 API 接入方式（SDK / RESTful API）  
+
+- **UPI Protocol Analysis**  
+  UPI 调用路径、数据结构与接口交互行为分析  
+
+- **Comparative Analysis**  
+  不同钱包（如 Paytm / PhonePe API）在接口设计与调用策略上的差异  
+
+---
+
+## 应用场景（Use Cases）
+- India payment ecosystem 接入与本地化（Localization）  
+- 钱包 API 聚合（Mobile wallet API aggregation）  
+- UPI protocol analysis 在支付系统设计中的应用  
+- API 网关与统一接口封装（API Abstraction Layer）  
+- 稳定性优化（Retry / Idempotency / Failover）  
+- 技术调研与 FinTech 架构设计参考  
+
