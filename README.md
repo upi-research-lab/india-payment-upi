@@ -56,4 +56,4 @@
 - 稳定性优化（Retry / Idempotency / Failover）  
 - 技术调研与 FinTech 架构设计参考  
 
-合作：telegram@lity689
+## 合作：telegram@lity689
