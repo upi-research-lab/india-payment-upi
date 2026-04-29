@@ -131,7 +131,6 @@ India market payment integration
 Wallet API research & comparison
 Payment system architecture design
 Technical due diligence
-⚠️ Disclaimer
 
 This repository is intended for:
 
@@ -139,8 +138,6 @@ Technical research
 API structure understanding
 System design reference
 
-All content is based on public information and compliant analysis.
-No content is intended for misuse or bypassing security mechanisms.
 
 UPI protocol analysis
 Mobile wallet API
