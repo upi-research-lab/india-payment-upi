@@ -201,8 +201,8 @@ Android 客户端 → 数据同步 → 后台
 
 我们更关注真实项目里碰到的问题，而不是单纯整理工具教程。
 
-如果你也在做 **印度 UPI、PhonePe、Paytm、海外钱包、商户流水、支付协议、Android 客户端定制、Transaction/Settlement 对账** 这类项目，可以通过 GitHub 查看后续更新和项目联系方式。
+如果你也在做 **印度 UPI、PhonePe、Paytm、海外钱包、商户流水、支付协议、Android 客户端定制、Transaction/Settlement 对账** 这类项目，可以通过 GitHub 查看后续更新
 
-**GitHub：** https://github.com/goldenfish689/android-reverse
+**如果你有具体项目合作，请联系：TG@lity689**
 
 > 仓库内容用于 Android 安全研究、授权测试及支付系统技术研究。支付业务应使用自有/授权账户并遵守平台规则和当地法律。
