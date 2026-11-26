@@ -204,3 +204,5 @@ Android 客户端 → 数据同步 → 后台
 如果你也在做 **印度 UPI、PhonePe、Paytm、海外钱包、商户流水、支付协议、Android 客户端定制、Transaction/Settlement 对账** 这类项目，可以通过 GitHub 查看后续更新
 
 **如果你有具体项目合作，请联系：TG@lity689**
+
+> 仓库内容用于 Android 安全研究、授权测试及支付系统技术研究。支付业务应使用自有/授权账户并遵守平台规则和当地法律。
